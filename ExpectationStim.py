@@ -86,7 +86,7 @@ class ExpectationStim(object):
 		# elif self.trial_settings[-5] == 3:
 			# self.cue_sound = 'green135'
 
-		self.cue_sound = self.trial_settings['trial_cue']
+		self.cue_sound = self.trial_settings['trial_cue_label']
 
 		if self.trial_settings['task'] == 1:
 			taskMessage = 'K'

@@ -195,8 +195,10 @@ class ExpectationSession(EyelinkSession):
 										'base_color_b': trial_types[ttype][3],
 										'trial_stimulus_label': stim_labels[ttype],
 										'trial_stimulus': ttype,
-										'trial_cue': stim_labels[cue_ii],
+										'trial_cue_label': stim_labels[cue_ii],
+										'trial_cue': cue_ii,
 										'task': self.task[task_ii],
+										'kb_color_location': self.keyboard_layout,
 										'trial_position_x': 0,# xy_positions[xy_ii][0],
 										'trial_position_y': 0#xy_positions[xy_ii][1]																											 																												 
 											}

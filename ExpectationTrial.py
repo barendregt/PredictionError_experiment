@@ -62,7 +62,11 @@ class ExpectationTrial(Trial):
 		
 		self.parameterDict = self.parameters.copy()
 		self.parameterDict.update({'trial_orientation': self.trial_ori_value,
-								   'trial_color': self.trial_color_value
+								   'trial_color': self.trial_color_value,
+								   'correct_response': '',
+								   'response': '',
+								   'trial_direction': 0,
+								   'reaction_time': 0
 							     })
 
 		# shell()
