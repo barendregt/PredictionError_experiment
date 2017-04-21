@@ -1,5 +1,0 @@
-,base_color_a,base_color_b,base_color_lum,base_ori,task,trial_color,trial_cue,trial_end,trial_orientation,trial_position_x,trial_position_y,trial_start,trial_stimulus,trial_stimulus_label
-0,80,75,55,45,2,70,green135,137.61123738714377,10.0,0,0,131.27126935045817,0,red45
-1,-80,75,55,135,2,-70,green135,144.21159326210909,-10.0,0,0,137.86524154178915,3,green135
-2,-80,75,55,135,2,-70,red45,151.30360118141107,-10.0,0,0,144.46395916033362,3,green135
-3,-80,75,55,135,1,-70,green135,153.03692331080674,10.0,0,0,151.55744561569009,3,green135
